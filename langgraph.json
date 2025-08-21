@@ -1,0 +1,12 @@
+{
+  "dockerfile": "./Dockerfile",
+  "dependencies": "./requirements.txt",
+  "graphs": {
+    "simple_bot": "./app.py:app"
+  },
+  "env": {
+    "OPENAI_API_KEY": "$OPENAI_API_KEY",
+    "LANGCHAIN_API_KEY": "$LANGCHAIN_API_KEY",
+    "LANGCHAIN_TRACING_V2": "true"
+  }
+}
