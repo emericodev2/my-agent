@@ -2,9 +2,9 @@ name: Deploy LangGraph Bot
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 env:
   LANGCHAIN_API_KEY: ${{ secrets.LANGCHAIN_API_KEY }}
